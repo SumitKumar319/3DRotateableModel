@@ -10,7 +10,6 @@ const sizes ={
 }
 
 //2
-//Scene>Camera>Renderer>loader
 const scene = new THREE.Scene()
 scene.background = new THREE.Color(0x000c25)
 // scene.opacity = new THREE.opacity(1)
