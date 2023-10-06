@@ -31,7 +31,7 @@ renderer.outputEncoding = THREE.sRGBEncoding;
 renderer.render(scene,camera)
 
 const loader = new GLTFLoader()
-loader.load('assets/scene.glb', function(glb){
+loader.load('scene.glb', function(glb){
     console.log(glb)
     const root = glb.scene;
     root.scale.set(0.75,0.75,0.75)
